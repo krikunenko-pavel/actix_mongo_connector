@@ -1,6 +1,8 @@
 use actix::{Actor, Context};
 use mongodb::Client;
 
+pub extern crate mongodb;
+
 pub struct MongoActor{
     pub client: Client
 }
